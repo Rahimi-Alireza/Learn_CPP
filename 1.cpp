@@ -2,8 +2,8 @@
 
 int main(){
 	int x;
-	x = 200;
-	std::cout << "Hello world!";
+	std::cin >> x;
+	std::cout << (x%2) * (x%3) << std::endl;
 	return 0;
 }
 
